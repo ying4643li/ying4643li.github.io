@@ -46,7 +46,7 @@ What Students & Parents Say
 - “Clear, patient teaching with real examples. My child gained confidence in Physics!” – Parent
 ---
 ## Contact
-### Get in Touch / Book a Session
+Get in Touch / Book a Session
   - Email: ying4643li@gmail.com
   - Phone/WhatsApp: 021 103 7855
   - **Follow-Up Note**: I’ll respond within 24 hours to schedule your session!
