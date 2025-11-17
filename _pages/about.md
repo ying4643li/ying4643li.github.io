@@ -12,11 +12,10 @@ redirect_from:
 [Book Your Free Trial Session](mailto:ying4643li@gmail.com "Free Trial")
 
 ---
----
 ## Why Learn With Me:
-  1. **Personalized Lessons**: One-on-one or small group sessions designed for your pace and goals. (Optional icon: Customization/Individuality)
-  2. **Expert Knowledge**: Strong foundation in Physics, Circuits, Maths, backed by Electrical Engineering studies. (Optional icon: Expertise/Education)
-  3. **Proven Success**: Lessons focus on understanding, problem-solving, and exam-ready techniques. (Optional icon: Achievement/Results)
+  1. **Personalized Lessons**: One-on-one or small group sessions designed for your pace and goals. 
+  2. **Expert Knowledge**: Strong foundation in Physics, Circuits, Maths, backed by Electrical Engineering studies.
+  3. **Proven Success**: Lessons focus on understanding, problem-solving, and exam-ready techniques. 
 ---
 
 ## Mini Bio
@@ -47,7 +46,7 @@ Tutoring Services – Build Confidence, Master STEM
 ## Testimonials
 What Students & Parents Say
 - “Anna explained circuits in a way I finally understood. My grades improved quickly!” `–` Student
-- “Clear, patient teaching with real examples. My child gained confidence in Physics!” `\` Parent
+- “Clear, patient teaching with real examples. My child gained confidence in Physics!” `-` Parent
 ---
 ## Contact
 Get in Touch / Book a Session
