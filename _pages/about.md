@@ -39,7 +39,7 @@ Tutoring Services – Build Confidence, Master STEM
   - Step-by-step understanding of core concepts
   - Lessons enhanced by Electrical Engineering expertise
 - **Service 3: Maths & STEM Support**
-  - Equations, calculations, and problem-solving practice
+  - Equations, calculations, and problem\-solving practice
   - Complements Physics and Circuits learning
     
 ---
