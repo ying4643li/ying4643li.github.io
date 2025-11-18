@@ -13,7 +13,7 @@ redirect_from:
 
 ---
 
-## Why Learn With Me:
+## Why Learn With Me?
   1. **Personalized Lessons**: One-on-one or small group sessions designed for your pace and goals. 
   2. **Expert Knowledge**: Strong foundation in Physics, Circuits, Maths, backed by Electrical Engineering studies.
   3. **Proven Success**: Lessons focus on understanding, problem-solving, and exam-ready techniques.
