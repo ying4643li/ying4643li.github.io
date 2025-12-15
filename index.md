@@ -28,4 +28,5 @@ Lessons focus on understanding, problem-solving, and exam-ready techniques.
 With years of tutoring experience and a solid Electrical Engineering background, I help students understand complex concepts in Physics, Maths, and Circuits.  
 My lessons are practical, engaging, and designed for fast, lasting improvement.
 
-[Learn more about me →](/about/)
+ [Learn more about me →](/about/)
+
