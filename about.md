@@ -16,4 +16,5 @@ Over the years, I’ve guided students of all levels to achieve better understan
 I focus on step-by-step explanations, practical problem-solving, and real-life examples.  
 Lessons are fully tailored to each student’s pace and learning style, ensuring they understand concepts deeply and can apply them confidently.
 
-[See My Services →](/services/)
+ [Services](/services/)
+
