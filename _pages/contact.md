@@ -1,41 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Book a Session</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+ ---
+title: "Contact"
+permalink: /contact/
+layout: single
+---
 
-<header>
-    <div class="logo">Anna Li</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html" class="active">Contact</a>
-    </nav>
-</header>
+<h1 style="color:#1E3A8A; font-weight:700;">
+Get in Touch / Book a Session
+</h1>
 
-<section class="page-header">
-    <h1>Get in Touch / Book a Session</h1>
-</section>
+<p>I’m happy to help you book a tutoring session. Please fill out the form below.</p>
 
-<section class="content">
-    <p><strong>Email:</strong> 36948504@qq.com</p>
-    <p><strong>Phone:</strong> 021 103 7855</p>
-    <p>I’ll respond within 24 hours to schedule your session.</p>
+<form action="https://formspree.io/f/your-form-id" method="POST" style="max-width:600px;">
 
-    <h2>Message Form</h2>
-    <form>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Phone">
-        <textarea placeholder="Message (optional)"></textarea>
-        <button type="submit" class="cta-btn">Send Message</button>
-    </form>
-</section>
+  <label><strong>Name</strong></label><br>
+  <input type="text" name="name" required
+    style="width:100%; padding:10px; margin-bottom:12px;">
 
-</body>
-</html>
+  <label><strong>Email</strong></label><br>
+  <input type="email" name="email" required
+    style="width:100%; padding:10px; margin-bottom:12px;">
+
+  <label><strong>Phone</strong></label><br>
+  <input type="text" name="phone"
+    style="width:100%; padding:10px; margin-bottom:12px;">
+
+  <label><strong>Message</strong></label><br>
+  <textarea name="message" rows="4"
+    placeholder="Preferred session time & subject (optional)"
+    style="width:100%; padding:10px; margin-bottom:16px;"></textarea>
+
+  <button type="submit"
+    style="
+      background:#F97316;
+      color:#FFFFFF;
+      font-weight:700;
+      padding:12px 20px;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+    ">
+    Send Message
+  </button>
+</form>
+
+<hr>
+
+<h3 style="color:#333333;">Direct Contact</h3>
+
+<p style="color:#333333;">
+<strong>Email:</strong> 36948504@qq.com<br>
+<strong>Phone:</strong> 021 103 7855
+</p>
+
+<p><em>I’ll respond within 24 hours to schedule your session!</em></p>
+
