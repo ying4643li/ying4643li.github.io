@@ -1,8 +1,11 @@
  ---
-layout: page
-title: "About Me"
+ ---
+title: "About"
 permalink: /about/
+layout: single 
+author_profile: true
 ---
+
 
 # Meet Your Tutor – Yixin (Anna) Li
 
