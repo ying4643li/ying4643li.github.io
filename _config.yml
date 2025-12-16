@@ -1,10 +1,6 @@
- title: "Anna"
+title: "Anna"
 theme: minima
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
 
  
 
