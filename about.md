@@ -1,8 +1,10 @@
 ---
- layout: default
-
+ 
+layout: default
 title: "About Me"
 permalink: /about/
+ 
+
 ---
 
 # Meet Your Tutor – Yixin (Anna) Li
