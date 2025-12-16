@@ -1,7 +1,10 @@
 ---
-layout: page
-title: Contact
-permalink: /contact/
+  
+layout: default
+title: " Services"
+permalink: /about/
+ 
+
 ---
 
 <style>
