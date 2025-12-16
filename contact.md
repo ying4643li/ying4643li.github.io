@@ -1,10 +1,7 @@
----
-  
-layout: default
-title: " Services"
-permalink: /about/
- 
-
+ ---
+layout: single
+title: "Contact"
+permalink: /contact/
 ---
 
 <style>
@@ -99,3 +96,4 @@ permalink: /about/
     I’ll respond within 24 hours to schedule your session!
   </div>
 </div>
+
