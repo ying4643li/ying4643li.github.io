@@ -1,9 +1,10 @@
+ title: "Anna"
+theme: minima
+
 collections:
   pages:
-  output: true
-  permalink: /:path/
-    title: "Anna"
-theme: minima
-build_time: 2025-12-16
+    output: true
+    permalink: /:path/
+
  
 
