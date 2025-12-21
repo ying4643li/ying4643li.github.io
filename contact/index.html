@@ -1,10 +1,113 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Contact</title>
+  <meta charset="UTF-8" />
+  <title>Contact | Get in Touch</title>
+
+  <style>
+    body {
+      background-color: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 40px;
+      color: #333333;
+    }
+
+    h1 {
+      color: #1E3A8A;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    .container {
+      max-width: 520px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #CCCCCC;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 22px;
+      background-color: #F97316;
+      color: #FFFFFF;
+      font-weight: bold;
+      border: none;
+      padding: 12px 26px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      font-size: 15px;
+    }
+
+    .contact-info p {
+      margin: 6px 0;
+    }
+
+    .note {
+      margin-top: 15px;
+      font-style: italic;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Contact</h1>
-  <p>Email: your@email.com</p>
+
+  <div class="container">
+    <h1>Get in Touch / Book a Session</h1>
+
+    <form>
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Your name" />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Your email address" />
+
+      <label for="phone">Phone</label>
+      <input id="phone" type="text" placeholder="Your phone number" />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4"
+        placeholder="Preferred session time & subject (optional)"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> 36948504@qq.com</p>
+      <p><strong>Email:</strong> ying4643li@gmail.com</p>
+      <p><strong>Phone:</strong> 021 103 7855</p>
+    </div>
+
+    <p class="note">
+      I’ll respond within 24 hours to schedule your session!
+    </p>
+  </div>
+
 </body>
 </html>
+
