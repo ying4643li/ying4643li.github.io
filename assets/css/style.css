@@ -24,3 +24,38 @@ header a,
   color: #1E3A8A;
   font-weight: 600;
 }
+/* === FIX NAVIGATION AT TOP (PROFESSIONAL) === */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 9999;
+}
+
+/* NAV LAYOUT */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+/* HORIZONTAL LINKS */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+/* PREVENT CONTENT HIDING UNDER HEADER */
+body {
+  padding-top: 90px;
+}
+
