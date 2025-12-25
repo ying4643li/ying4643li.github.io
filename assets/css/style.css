@@ -1,30 +1,8 @@
-/* Keep navigation at top of screen */
-nav,
-header,
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #ffffff;
-  z-index: 1000;
-  padding: 15px 30px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-}
+ /* ================================
+   FIXED TOP NAVIGATION (FINAL)
+   ================================ */
 
-body {
-  padding-top: 70px;
-}
-
-nav a,
-header a,
-.menu a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #1E3A8A;
-  font-weight: 600;
-}
-/* === FIX NAVIGATION AT TOP (PROFESSIONAL) === */
+/* FIX HEADER AT TOP */
 .site-header {
   position: fixed;
   top: 0;
@@ -32,17 +10,25 @@ header a,
   width: 100%;
   background: #ffffff;
   z-index: 9999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-/* NAV LAYOUT */
-.nav {
+/* NAV BAR LAYOUT */
+.site-header .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
 }
 
-/* HORIZONTAL LINKS */
+/* SITE TITLE */
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* NAV LINKS CONTAINER */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -50,11 +36,24 @@ header a,
   padding: 0;
 }
 
+/* REMOVE BULLETS */
 .nav-links li {
   list-style: none;
 }
 
-/* PREVENT CONTENT HIDING UNDER HEADER */
+/* NAV LINKS STYLE */
+.nav-links a {
+  text-decoration: none;
+  color: #1E3A8A;
+  font-weight: 600;
+}
+
+/* NAV HOVER */
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* PUSH PAGE CONTENT BELOW FIXED HEADER */
 body {
   padding-top: 90px;
 }
