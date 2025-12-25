@@ -1,11 +1,8 @@
  ---
 layout: default
 title: Home
+show_posts: false
 ---
-
-<!-- ==============================
-     HOMEPAGE CONTENT
-     ============================== -->
 
 <section style="background-color:#F9F9F9; padding:60px 20px; text-align:center; font-family: 'Lato', 'Open Sans', sans-serif;">
 
