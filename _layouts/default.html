@@ -14,16 +14,9 @@
 <body>
 
   <!-- ================================
-       FIXED TOP NAVIGATION (FINAL)
+       FIXED TOP NAVIGATION
        ================================ -->
-  <header class="site-header"
-    style="position: fixed;
-           top: 0;
-           left: 0;
-           width: 100%;
-           z-index: 9999;
-           background: #ffffff;
-           box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
+  <header class="site-header" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; background: #ffffff; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
 
     <nav class="nav" style="display:flex; align-items:center; justify-content:space-between; padding:15px 30px;">
       <div class="logo">{{ site.title }}</div>
@@ -37,7 +30,7 @@
     </nav>
   </header>
 
-  <!-- PUSH CONTENT BELOW FIXED HEADER -->
+  <!-- PUSH PAGE CONTENT BELOW FIXED HEADER -->
   <main style="padding-top: 90px;">
     {{ content }}
   </main>
