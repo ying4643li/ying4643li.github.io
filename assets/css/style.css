@@ -1,8 +1,7 @@
  /* ================================
-   FIXED TOP NAVIGATION (FINAL)
+   FIXED TOP NAVIGATION (CSS)
    ================================ */
 
-/* FIX HEADER AT TOP */
 .site-header {
   position: fixed !important;
   top: 0 !important;
@@ -13,7 +12,6 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
 }
 
-/* NAV BAR LAYOUT */
 .site-header .nav {
   display: flex !important;
   align-items: center !important;
@@ -21,14 +19,12 @@
   padding: 15px 30px !important;
 }
 
-/* SITE TITLE */
 .logo {
   font-size: 20px !important;
   font-weight: 700 !important;
   color: #111827 !important;
 }
 
-/* NAV LINKS CONTAINER */
 .nav-links {
   display: flex !important;
   gap: 20px !important;
@@ -36,24 +32,21 @@
   padding: 0 !important;
 }
 
-/* REMOVE BULLETS */
 .nav-links li {
   list-style: none !important;
 }
 
-/* NAV LINKS STYLE */
 .nav-links a {
   text-decoration: none !important;
   color: #1E3A8A !important;
   font-weight: 600 !important;
 }
 
-/* NAV HOVER */
 .nav-links a:hover {
   text-decoration: underline !important;
 }
 
-/* PUSH PAGE CONTENT BELOW FIXED HEADER */
+/* Ensure page content is below fixed header */
 body {
   padding-top: 90px !important;
 }
