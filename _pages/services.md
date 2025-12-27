@@ -1,7 +1,10 @@
  ---
-layout: page
+ ---
+layout: default
 title: "Services"
 permalink: /services/
+---
+
 ---
 
 # Tutoring Services – Build Confidence, Master STEM
