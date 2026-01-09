@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>Contact | Get in Touch</title>
-
   <style>
     body {
       background-color: #FFFFFF;
@@ -16,98 +15,59 @@
     h1 {
       color: #1E3A8A;
       font-weight: bold;
-      margin-bottom: 25px;
     }
 
-    .container {
-      max-width: 520px;
+    form {
+      max-width: 500px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
     }
 
     label {
-      display: block;
-      margin-top: 15px;
+      margin-top: 10px;
       font-weight: bold;
     }
 
-    input,
-    textarea {
-      width: 100%;
+    input, textarea {
+      margin-top: 5px;
       padding: 10px;
-      margin-top: 6px;
-      border: 1px solid #CCCCCC;
-      border-radius: 6px;
-      font-size: 14px;
-    }
-
-    textarea {
-      resize: vertical;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
     }
 
     button {
-      margin-top: 22px;
-      background-color: #F97316;
-      color: #FFFFFF;
-      font-weight: bold;
-      border: none;
-      padding: 12px 26px;
-      border-radius: 30px;
-      cursor: pointer;
+      margin-top: 20px;
+      padding: 10px;
       font-size: 16px;
+      background-color: #1E3A8A;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
     }
 
     button:hover {
-      opacity: 0.9;
-    }
-
-    .contact-info {
-      margin-top: 30px;
-      font-size: 15px;
-    }
-
-    .contact-info p {
-      margin: 6px 0;
-    }
-
-    .note {
-      margin-top: 15px;
-      font-style: italic;
+      background-color: #15326b;
     }
   </style>
 </head>
-
 <body>
+  <h1>Contact Me</h1>
+  <p>Fill out the form below and I will get back to you as soon as possible.</p>
 
-  <div class="container">
-    <h1>Get in Touch / Book a Session</h1>
+  <form action="https://formspree.io/f/xqeezqwg" method="POST">
+    <label for="name">Your Name</label>
+    <input type="text" name="name" id="name" required />
 
-    <form>
-      <label for="name">Name</label>
-      <input id="name" type="text" placeholder="Your name" />
+    <label for="email">Your Email</label>
+    <input type="email" name="email" id="email" required />
 
-      <label for="email">Email</label>
-      <input id="email" type="email" placeholder="Your email address" />
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="5" required></textarea>
 
-      <label for="phone">Phone</label>
-      <input id="phone" type="text" placeholder="Your phone number" />
-
-      <label for="message">Message</label>
-      <textarea id="message" rows="4"
-        placeholder="Preferred session time & subject (optional)"></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-
-    <div class="contact-info">
-      <p><strong>Email:</strong> 36948504@qq.com</p>
-      <p><strong>Email:</strong> ying4643li@gmail.com</p>
-      <p><strong>Phone:</strong> 021 103 7855</p>
-    </div>
-
-    <p class="note">
-      I’ll respond within 24 hours to schedule your session!
-    </p>
-  </div>
-
+    <button type="submit">Send Message</button>
+  </form>
 </body>
 </html>
-
