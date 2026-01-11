@@ -1,11 +1,143 @@
  <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ying Li</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #333333;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      border-bottom: 1px solid #e5e5e5;
+      padding: 16px 32px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a.logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #1E3A8A;
+      text-decoration: none;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333333;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: #1E3A8A;
+    }
+
+    /* ===== MAIN ===== */
+    main {
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      color: #1E3A8A;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #cccccc;
+      border-radius: 6px;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      background: #F97316;
+      color: #ffffff;
+      border: none;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ea650f;
+    }
+
+    .contact-info {
+      margin-top: 40px;
+    }
+
+    .contact-info p {
+      margin: 6px 0;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-style: italic;
+      color: #555;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      margin-top: 80px;
+      padding: 24px;
+      text-align: center;
+      background: #f9f9f9;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>CONTACT PAGE TEST</h1>
-  <p>If you see this, GitHub Pages is working.</p>
-</body>
-</html>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <a href="/" class="logo">Ying Li</a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/_pages/about.md">About</a></li>
+        <li><a href="/_pages/services.md">Services</a></li>_
