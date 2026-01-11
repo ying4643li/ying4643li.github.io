@@ -2,72 +2,126 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Get in Touch</title>
   <style>
     body {
       background-color: #FFFFFF;
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
-      padding: 40px;
+      padding: 0;
       color: #333333;
+    }
+
+    /* Header/nav styles */
+    header {
+      background-color: #1E3A8A;
+      padding: 20px;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header nav ul li a.active {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
     }
 
     h1 {
       color: #1E3A8A;
       font-weight: bold;
+      text-align: center;
     }
 
     form {
-      max-width: 500px;
-      margin-top: 20px;
       display: flex;
       flex-direction: column;
-    }
-
-    label {
-      margin-top: 10px;
-      font-weight: bold;
+      gap: 15px;
     }
 
     input, textarea {
-      margin-top: 5px;
       padding: 10px;
       font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
+      border: 1px solid #CCCCCC;
+      border-radius: 5px;
     }
 
     button {
-      margin-top: 20px;
-      padding: 10px;
+      padding: 12px;
       font-size: 16px;
       background-color: #1E3A8A;
       color: white;
       border: none;
-      border-radius: 4px;
+      border-radius: 5px;
       cursor: pointer;
     }
 
     button:hover {
-      background-color: #15326b;
+      background-color: #163075;
+    }
+
+    footer {
+      background-color: #1E3A8A;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Contact Me</h1>
-  <p>Fill out the form below and I will get back to you as soon as possible.</p>
 
-  <form action="https://formspree.io/f/xqeezqwg" method="POST">
-    <label for="name">Your Name</label>
-    <input type="text" name="name" id="name" required />
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact/index.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <label for="email">Your Email</label>
-    <input type="email" name="email" id="email" required />
+  <!-- MAIN CONTACT CONTENT -->
+  <main>
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/f/xqeezqwg" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
 
-    <label for="message">Message</label>
-    <textarea name="message" id="message" rows="5" required></textarea>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Ying Li</p>
+    <p><a href="../privacy.html">Privacy Policy</a></p>
+  </footer>
 
-    <button type="submit">Send Message</button>
-  </form>
 </body>
 </html>
