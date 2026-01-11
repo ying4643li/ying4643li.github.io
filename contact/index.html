@@ -2,127 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Get in Touch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Ying Li</title>
+
   <style>
     body {
-      background-color: #FFFFFF;
-      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
-      padding: 0;
-      color: #333333;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #333;
     }
 
-    /* Header/nav styles */
+    /* ===== Header / Navigation ===== */
     header {
-      background-color: #1E3A8A;
-      padding: 20px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 16px 40px;
     }
 
-    header nav ul {
-      list-style-type: none;
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #1E3A8A;
+      text-decoration: none;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 24px;
       margin: 0;
       padding: 0;
-      display: flex;
     }
 
-    header nav ul li {
-      margin-right: 20px;
-    }
-
-    header nav ul li a {
-      color: #FFFFFF;
+    nav ul li a {
       text-decoration: none;
-      font-weight: bold;
+      color: #333;
+      font-weight: 500;
     }
 
-    header nav ul li a.active {
-      text-decoration: underline;
+    nav ul li a:hover {
+      color: #1E3A8A;
     }
 
+    /* ===== Main Content ===== */
     main {
-      padding: 40px;
-      max-width: 600px;
-      margin: auto;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 20px;
     }
 
     h1 {
-      color: #1E3A8A;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-
-    input, textarea {
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #CCCCCC;
-      border-radius: 5px;
-    }
-
-    button {
-      padding: 12px;
-      font-size: 16px;
-      background-color: #1E3A8A;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #163075;
-    }
-
-    footer {
-      background-color: #1E3A8A;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-
-    footer a {
-      color: white;
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- HEADER / NAVIGATION -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li><a href="../services.html">Services</a></li>
-        <li><a href="../contact/index.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- MAIN CONTACT CONTENT -->
-  <main>
-    <h1>Contact Me</h1>
-    <form action="https://formspree.io/f/xqeezqwg" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="_replyto" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2026 Ying Li</p>
-    <p><a href="../privacy.html">Privacy Policy</a></p>
-  </footer>
-
-</body>
-</html>
+      color
