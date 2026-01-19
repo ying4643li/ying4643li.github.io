@@ -4,7 +4,7 @@ title: Services
 permalink: /services/
 ---
 
-## Tutoring Services – Build Confidence, Master STEM
+## Tutoring Services – Build Confidence, Master STE
 
 ### NCEA Physics Level 1 & 2
 - Curriculum-aligned, exam-focused lessons
