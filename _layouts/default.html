@@ -21,11 +21,59 @@
   </main>
 
   <!-- Optional Footer -->
-  <!--
-  <footer>
-    <p>© 2025 Your Site</p>
-  </footer>
-  -->
+  <footer class="site-footer">
+  <div class="footer-container">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <div class="brand-logo">
+        <!-- Optional logo image -->
+        <!-- <img src="logo.png" alt="Ying Li"> -->
+        <span class="brand-name">Ying Li</span>
+      </div>
+      <p class="brand-desc">
+        Personal portfolio and web projects. Clean, simple, and practical design.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>📞 <a href="tel:0211037855">021 103 7855</a></p>
+      <p>✉️ <a href="mailto:ying4643li@gmail.com">ying4643li@gmail.com</a></p>
+      <p>🌐 <a href="https://ying4643li.github.io/" target="_blank">ying4643li.github.io</a></p>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-social">
+      <h4>Social</h4>
+      <div class="social-icons">
+        <a href="https://github.com/ying4643li" target="_blank" aria-label="GitHub">🐙</a>
+        <a href="#" aria-label="LinkedIn">💼</a>
+        <a href="#" aria-label="Email">✉️</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © <span id="year"></span> Ying Li. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
 
