@@ -40,7 +40,7 @@ show_posts: false
 
   <!-- Mini Bio -->
   <p style="color:#333333; max-width:800px; margin:0 auto 30px auto;">
-    Hi, I’m Yixin (Anna) Li. With years of tutoring experience and a solid Electrical Engineering background, I help students understand complex concepts in Physics, Maths, and Circuits. My lessons are practical, engaging, and designed for fast, lasting improvement.
+    Hi, I’m Anna Li. With years of tutoring experience and a solid Electrical Engineering background, I help students understand complex concepts in Physics, Maths, and Circuits. My lessons are practical, engaging, and designed for fast, lasting improvement.
   </p>
 
   <!-- Learn More Button -->
