@@ -1,9 +1,8 @@
- ---
+---
 layout: default
 title: "About"
 permalink: /about/
 ---
-
 # Meet Your Tutor –  Anna Li
 
 I’m passionate about helping students conquer challenging STEM subjects. My Electrical Engineering studies give me a deep understanding of **Physics, Circuits, and Mathematics**, which I bring directly into my tutoring sessions.  
