@@ -1,9 +1,8 @@
- ---
+---
 layout: default
 title: Contact
 permalink: /contact/
 ---
-
 # Get in Touch / Book a Session
 
 <form action="https://formspree.io/f/xqeezqwg" method="POST" style="max-width:600px; margin-top:20px;">
